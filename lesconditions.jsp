@@ -38,7 +38,31 @@ A = 10</br>
 B = 20</br>
 C = 15</br>
 Oui C est compris entre A et B</p>
+import java.util.Scanner;
 
+public class Main {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Entrez la valeur de A : ");
+        int A = scanner.nextInt();
+        
+        System.out.print("Entrez la valeur de B : ");
+        int B = scanner.nextInt();
+        
+        System.out.print("Entrez la valeur de C : ");
+        int C = scanner.nextInt();
+        
+        if ((C > A && C < B) || (C > B && C < A)) {
+            System.out.println("Oui, C est compris entre A et B");
+        } else {
+            System.out.println("Non, C n'est pas compris entre A et B");
+        }
+
+        scanner.close();
+    }
+}
 <h2>Exercice 2 : Pair ou Impair ?</h2>
 <p>Écrivez un programme pour vérifier si un nombre est pair ou impair en utilisant une structure if</p>
 
@@ -46,3 +70,28 @@ Oui C est compris entre A et B</p>
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Entrez la valeur de A : ");
+        int A = scanner.nextInt();
+        
+        System.out.print("Entrez la valeur de B : ");
+        int B = scanner.nextInt();
+        
+        System.out.print("Entrez la valeur de C : ");
+        int C = scanner.nextInt();
+        
+        if ((C > A && C < B) || (C > B && C < A)) {
+            System.out.println("Oui, C est compris entre A et B");
+        } else {
+            System.out.println("Non, C n'est pas compris entre A et B");
+        }
+
+        scanner.close();
+    }
+}
