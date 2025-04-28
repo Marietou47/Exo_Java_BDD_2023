@@ -70,3 +70,30 @@ xueivulp ares revih'l</p>
 <p><a href="index.html">Retour au sommaire</a></p>
 </body>
 </html>
+<h1>Exercices sur les chaînes de charactéres</h1>
+<p>Voici quelques exercices sur les chaînes de charactéres en Java. Bonne chance !</p>
+
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Les chaînes de caractères</title>
+</head>
+<body>
+    <h1>Exercices sur les chaînes de caractères en Java</h1>
+    <p>Voici un exercice où nous allons manipuler des chaînes de caractères.</p>
+
+    <h2>Exercice 1 : Manipulation de chaînes</h2>
+    <p>Écrivez un programme Java qui inverse une chaîne de caractères :</p>
+    <pre>
+<%
+    String str = "Bonjour";
+    String reversed = new StringBuilder(str).reverse().toString();
+    out.println("Original : " + str + "<br>");
+    out.println("Inversée : " + reversed + "<br>");
+%>
+    </pre>
+    <p>Ce programme utilise `StringBuilder` pour inverser la chaîne de caractères.</p>
+</body>
+</html>
