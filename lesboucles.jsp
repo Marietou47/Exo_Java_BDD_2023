@@ -203,3 +203,28 @@ public class Main {
         scanner.close();
     }
 }
+<h2>Exercice supplémentaire : Compter de 1 à 10</h2>
+<p>Écrire une boucle qui affiche les nombres de 1 à 10.</p>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Les boucles</title>
+</head>
+<body>
+    <h1>Exercices sur les boucles en Java</h1>
+    <p>Voici un exemple simple pour utiliser les boucles en Java. Cet exercice va vous permettre de comprendre comment faire un compte de 1 à 10.</p>
+
+    <h2>Exercice 1 : Compter de 1 à 10</h2>
+    <p>Écrivez un programme Java qui affiche les nombres de 1 à 10 :</p>
+    <pre>
+<%
+    for (int i = 1; i <= 10; i++) {
+        out.println(i + "<br>");
+    }
+%>
+    </pre>
+    <p>Ce code utilise une boucle `for` pour afficher les nombres de 1 à 10.</p>
+</body>
+</html>
