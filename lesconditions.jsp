@@ -95,3 +95,32 @@ public class Main {
         scanner.close();
     }
 }
+<h1>Exercices sur les conditions</h1>
+<p>Voici quelques exercices sur les conditions en Java. Bonne chance !</p>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Les conditions</title>
+</head>
+<body>
+    <h1>Exercices sur les conditions en Java</h1>
+    <p>Ce programme vérifie si un nombre est pair ou impair.</p>
+
+    <h2>Exercice 1 : Vérification d'un nombre</h2>
+    <p>Écrivez un programme Java qui vérifie si un nombre est pair ou impair :</p>
+    <pre>
+<%
+    int number = 5; // Vous pouvez changer ce nombre
+    if (number % 2 == 0) {
+        out.println(number + " est pair.");
+    } else {
+        out.println(number + " est impair.");
+    }
+%>
+    </pre>
+    <p>Le programme utilise l'opérateur modulo `%` pour vérifier si le nombre est divisible par 2 (pair).</p>
+</body>
+</html>
+
