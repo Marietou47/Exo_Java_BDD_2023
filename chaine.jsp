@@ -10,13 +10,14 @@
         String bonjour = "salut la compagnie";
         String majuscules = bonjour.toUpperCase();
 
-        String premiereLettreMajuscule(String str) {
-            if (str == null || str.isEmpty()) return str;
-            return str.substring(0, 1).toUpperCase() + str.substring(1).toLowerCase();
+        String capitalise = "";
+        if (bonjour != null && !bonjour.isEmpty()) {
+            capitalise = bonjour.substring(0, 1).toUpperCase() + bonjour.substring(1).toLowerCase();
         }
-
-        String capitalise = premiereLettreMajuscule(bonjour);
     %>
 
     <h2>Chaîne originale : <%= bonjour %></h2>
-    <h2>En maj
+    <h2>En majuscules : <%= majuscules %></h2>
+    <h2>Première lettre en majuscule : <%= capitalise %></h2>
+</body>
+</html>
